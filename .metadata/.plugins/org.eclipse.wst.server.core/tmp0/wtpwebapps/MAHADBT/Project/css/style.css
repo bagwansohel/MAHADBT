@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Raleway-regular";
+    src:url(../fonts/Raleway-Regular.ttf)
+}
+@font-face {
+    font-family:"Raleway-medium";
+    src:url(../fonts/Raleway-Medium.ttf)
+}
+@font-face {
+    font-family:"Raleway-bold";
+    src:url(../fonts/Raleway-Bold.ttf)
+}
+@font-face {
+    font-family:"Raleway-extrabold";
+    src:url(../fonts/Raleway-ExtraBold.ttf)
+}
+@font-face {
+    font-family:"Raleway-semibold";
+    src:url(../fonts/Raleway-SemiBold.ttf)
+}
+@font-face {
+    font-family:"Raleway-black";
+    src:url(../fonts/Raleway-Black.ttf)
+}
+:root {
+    --primary:#EEBF00;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
+body{
+    -webkit-font-smoothing:antialiased;
+    font-family: "Raleway-regular";
+}
+.container {
+    height: 100%;
+    padding:0 10px;
+    margin:0 auto;
+    display:flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+.flex{
+    display:flex;
+}
+.container .left{
+flex:1;
+}
+.container .middle{
+flex:2;
+margin-left: 10rem;
+}
+.container .right {
+height:5rem;
+width:10rem;
+background-color:darkorange;
+margin: 10px;
+}
+.container .right a{
+    text-decoration: none;
+    color:var(--pure);
+    font-family: 'Raleway-Bold';
+    font-size: 1.3rem;
+    
+}
+.container .leftside{
+    flex:1;
+}
+.container .rightside{
+    flex:1
+}
+.container .left img{
+    height:6rem;
+    width:5rem;
+}
+.container .middle img{
+   align-items: center;
+
+}
+.container .leftside .box{
+border:1px solid var(--ternary);
+margin-top: 1rem;
+padding: 1.53rem;
+width:60%;
+} 
+.container .rightside .box{
+    border:1px solid var(--ternary);
+    margin-top: 1rem;
+    padding: 1.34rem;
+    width:60%;
+    float:right;
+}
+.container .leftside .box img{
+    float: left;
+    width:2rem;
+    height:2rem;
+   margin-right: 0.7rem;
+}
+.container .leftside .box a{
+text-decoration: none;
+color:black;
+} 
+.container .rightside .box a{
+    text-decoration: none;
+    color:black;
+} 
+.container .box:hover{
+    background:slateblue;
+    
+}
+.container .rightside .box img{
+    float:left;
+    width:2rem;
+    height:2rem;
+    margin-right: 0.7rem;
+}
+
+.container .leftside .box h4{
+    padding:5px;
+    
+}   
+
+
+/*-----------------------How To Apply Section ---------------------------------*/
+.Apply{
+margin:3rem;
+}
+.Apply .heading h1{
+    text-align: center;
+    color: darkorange;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.Apply .details h2{
+    color:seagreen;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.Apply .step h3{
+    display: inline;
+    color:var(--danger);
+    font-size: 1.5rem;
+  
+    
+}
+.Apply .step p{
+    display: inline;
+    font-size: 1.3rem;
+    font-family: "Raleway-medium";
+    line-height: 1.5rem;
+}
+.Apply .back a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:var(--pure);
+    background-color:var(--primary);
+    border-radius:20px;
+    padding: 0.5rem;
+}
+.Apply .back .More{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:var(--pure);
+    background-color:var(--primary);
+    border-radius:20px;
+    padding: 0.5rem;
+    margin-left: 40rem;
+}

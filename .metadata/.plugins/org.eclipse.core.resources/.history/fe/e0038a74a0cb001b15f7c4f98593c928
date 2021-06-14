@@ -1,0 +1,16 @@
+package dao;
+import java.sql.*;
+import model;
+public class StudentDAO{
+
+	try {
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	Connection con=""
+	}
+	catch(Exception e)
+	{
+		System.out.println(e);
+	}
+	
+	
+}

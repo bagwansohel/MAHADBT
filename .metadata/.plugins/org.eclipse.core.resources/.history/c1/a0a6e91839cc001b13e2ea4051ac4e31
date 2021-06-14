@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Prevention</title>
+    <link rel="stylesheet" href="Covid.css" />
+</head>
+
+<body>
+
+    <div class="Apply">
+        <div class="heading">
+            <h1>Covid 19 Safety Guidelines</h1>
+        </div>
+        <div class="details">
+            <h2>Follow Prevention Step</h2>
+        </div>
+        <div class="step">
+
+            <p>The CDC recommends using a sanitizer that is at least 60% alcohol.</p></br></br>
+
+            <h3>Step 1: </h3>
+            <p>Avoid coughing or sneezing into your hand. ...</p></br></br>
+
+            <h3>Step 2: </h3>
+            <p>Stay home if you are sick. ...</p></br></br>
+
+            <h3>Step 3: </h3>
+            <p>Consider alternatives to shaking hands. ...</p></br></br>
+
+            <h3>Step 4: </h3>
+            <p> Try to avoid touching your face.</p></br></br>
+
+
+        </div>
+        <div class="back">
+            <a href="Home.html">Back Home</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

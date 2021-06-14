@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Registration.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Registration Form</h1>
+            <form action="" method="post">
+
+                <label>First Name </label><br>
+                <input type="text" name="fname"  placeholder="Sohel" required  /></br>
+                <label>Last Name </label><br>
+                <input type="text" name="lname" placeholder="Bagwan"  required /></br>
+                <label>Email </label><br>
+                <input type="email" name="email" placeholder="bagwansohel50@gmail.com"  required /></br>
+                <label>Confirm Email </label><br>
+                <input type="email" placeholder="bagwansohel50"  required /></br>
+                <label>Username </label><br>
+                <input type="text" name="username" placeholder="Username"  required /></br>
+                <label>Password </label><br>
+                <input type="password" name="password" required placeholder="Password" /></br>
+                <input type="submit" value="Submit" class="button"/></br>
+                <p>If you have already account?<a href="Login.html">Login</a></p>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

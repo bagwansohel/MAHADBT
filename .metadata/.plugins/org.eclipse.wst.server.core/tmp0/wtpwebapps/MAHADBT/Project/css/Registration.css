@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*<------------------Registration------------------------->*/
+
+.container{
+  
+        margin: auto;
+        width: 50%;
+       background-color:cornsilk;
+        padding: 20px;
+    
+}
+.container .heading h1{
+    color:darkorange;
+    text-align: center;
+}
+.container .heading label{
+    font-size:1rem;
+    color:seagreen;
+}
+.container .heading input{
+    padding:0.5rem;
+    margin:0.8rem;
+    width: 100%;
+}
+.container .heading >form ::placeholder{
+    font-size: 0.8rem;
+}  
+.container .heading .button{
+    font-size:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

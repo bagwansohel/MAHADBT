@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Apply Online</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="Apply">
+        <div class="heading">
+            <h1>MahaDBT Scholarship 2020-21</h1>
+        </div>
+        <div class="details">
+            <h2>Registration using Non Aadhaar</h2>
+        </div>
+        <div class="step">
+            <h3>Step 1:</h3>
+            <p> Click on New Applicant Registration. ...</p></br></br>
+
+            <h3>Step 2: </h3>
+            <p> New Registration (Non Aadhaar) form page will be displayed. ...</p></br></br>
+
+            <h3>Step 3: </h3>
+            <p>Enter Further Form details. ...</p></br></br>
+
+            <h3>Step 4: </h3>
+            <p> Upload Identification Proofs required. ...</p></br></br>
+            <p>Here user will upload the photo required according to the Portal's requirement.</p></br></br>
+
+        </div>
+        <div class="back">
+            <a href="Home.html">Back Home</a>
+            </div>
+    </div>
+
+</body>
+
+</html>

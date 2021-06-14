@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MahaDBT</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="mark"></div>
+    <div class="container">
+        <div class="left">
+            <img src="image/rajmudra.png" alt="Rajmudra" />
+            <img src="logo.jpg" alt="Logo" />
+        </div>
+        <div class="middle ">
+            <img src="Mahadbt.png" alt="MahaDBT" />
+        </div>
+        <div class="right">
+            <div>
+            <a href="ApplyDetails.html">How to <br>Apply Online ?</a>
+            </div>
+        </div>
+        <div class="registration">
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <div class="leftside">
+            <div class="box">
+                <img src="signup.png" alt="signup" />
+                <a href="Registration.html"><h4>New Applicant Registration</h4></a>
+            </div>
+            <div class="box">
+                <img src="lock.png" alt="lock" />
+                <a href="Login.html"><h4>Applicant Login</h4></a>
+            </div>
+            <div class="box">
+                <img src="university.png" alt="university" />
+                <a href="university.html"><h4>Institute/Dept/DBO Login</h4></a>
+            </div>
+            <div class="box">
+                <img src="chat.png" alt="chat" />
+                <a href="Guidelines.html"><h4>Guidence/Suggestions</h4></a>
+            </div>
+        </div>
+        
+        <div class="rightside">
+            <div class="box">
+                <img src="chat1.png" alt="chat1" />
+                <a href=""><h4>Frequently Asked Question</h4></a>
+            </div>
+            <div class="box">
+                <img src="call.png" alt="call" />
+                <h4>Helpline Number</h4>
+                <p>022-69150600</p>
+            </div>
+            <div class="box">
+                <img src="call.png" alt="call" />
+                <h4>Chief Minister Helpline 24*7 /Toll Free No:</h4>
+                <p>1800 1208 0400</p>
+            </div>
+            <div class="box">
+                <img src="coronavirus.png" alt="covid" />
+                <a href="Covid.html"><h4>Safety Guidelines for Covid 19</h4></a>
+                
+            </div>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>

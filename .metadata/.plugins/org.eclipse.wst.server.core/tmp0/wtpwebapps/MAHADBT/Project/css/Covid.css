@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*<------------------------Covid 19------------------------->*/
+.Apply{
+margin:3rem;
+}
+.Apply .heading h1{
+    text-align: center;
+    color: darkorange;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.Apply .details h2{
+    color:seagreen;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.Apply .step h3{
+    display: inline;
+    color:#FE4545;
+    font-size: 1.5rem;
+  
+    
+}
+.Apply .step p{
+    display: inline;
+    font-size: 1.3rem;
+    font-family: "Raleway-medium";
+    line-height: 1.5rem;
+}
+.Apply .back a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:white;
+    background-color:#EEBF00;
+    border-radius:20px;
+    padding: 0.5rem;
+    margin-left:40rem;
+}
